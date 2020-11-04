@@ -1,0 +1,15 @@
+2020-10-30 16:33:27,141 compare.py[line:48] ERROR 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "/home/lily/PycharmProjects/untitled11/common/compare.py", line 17, in compare_code
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2020-10-30 16:33:27,142 compare.py[line:95] ERROR 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "/home/lily/PycharmProjects/untitled11/common/compare.py", line 75, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface,str):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2020-10-30 16:33:27,143 compare.py[line:126] ERROR 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/lily/PycharmProjects/untitled11/common/compare.py", line 102, in compare_params_comlpete
+    if temp_compare_params['code'] == '0000':
+TypeError: 'NoneType' object is not subscriptable
